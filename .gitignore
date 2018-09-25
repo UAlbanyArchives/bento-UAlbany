@@ -12,6 +12,7 @@
 /db/*.sqlite3-journal
 
 /config/secrets.yml
+/config/quick_search_config.yml
 
 config/initializers/secret_token.rb
 config/master.key
