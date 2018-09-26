@@ -61,7 +61,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'quick_search-core', '~> 0.2.0'
+#gem 'quick_search-core', '~> 0.2.0'
+gem 'quick_search-core', git: 'git://github.com/UAlbanyArchives/quick_search'
 gem 'quick_search-arclight', git: 'git://github.com/UAlbanyArchives/quick_search-arclight_searcher'
 gem 'quick_search-hyrax', git: 'git://github.com/UAlbanyArchives/quick_search-hyrax_searcher'
 gem 'quick_search-grenander_theme', git: 'git://github.com/UAlbanyArchives/quick_search-grenander_theme'
