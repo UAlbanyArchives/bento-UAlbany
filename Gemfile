@@ -66,6 +66,7 @@ gem 'quick_search-core', git: 'git://github.com/UAlbanyArchives/quick_search'
 gem 'quick_search-arclight', git: 'git://github.com/UAlbanyArchives/quick_search-arclight_searcher'
 gem 'quick_search-hyrax', git: 'git://github.com/UAlbanyArchives/quick_search-hyrax_searcher'
 gem 'quick_search-grenander_theme', git: 'git://github.com/UAlbanyArchives/quick_search-grenander_theme'
+#gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
 
 gem 'ffi', '~> 1.9.24'
 gem 'sprockets', '~> 3.7.2'
