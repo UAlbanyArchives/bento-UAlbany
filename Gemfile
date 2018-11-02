@@ -70,6 +70,7 @@ gem 'quick_search-grenander_theme', git: 'git://github.com/UAlbanyArchives/quick
 
 gem 'ffi', '~> 1.9.24'
 gem 'sprockets', '~> 3.7.2'
+gem 'loofah', '~> 2.2.3'
 
 gem 'd3-rails'
 gem 'lodash-rails'
