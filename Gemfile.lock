@@ -11,13 +11,6 @@ GIT
       nokogiri
       rails (~> 5.0)
 
-GIT
-  remote: git://github.com/UAlbanyArchives/quick_search-hyrax_searcher
-  revision: c0636c81d75c959093ba47b7aacefc8023fda6b7
-  specs:
-    quick_search-hyrax (0.1.0)
-      rails (~> 5.2.1)
-
 PATH
   remote: quick_search-arclight_searcher
   specs:
@@ -35,6 +28,12 @@ PATH
       jquery-rails
       lodash-rails
       quick_search-core (~> 0.1)
+
+PATH
+  remote: quick_search-hyrax_searcher
+  specs:
+    quick_search-hyrax (0.1.0)
+      rails (~> 5.2.1)
 
 GEM
   remote: https://rubygems.org/
