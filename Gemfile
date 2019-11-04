@@ -6,7 +6,8 @@ ruby '2.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -73,6 +74,8 @@ gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
 gem 'ffi', '~> 1.9.24'
 gem 'sprockets', '~> 3.7.2'
 gem 'loofah', '~> 2.2.3'
+gem 'nokogiri', '~> 1.10.5'
+gem 'rubyzip', '~> 1.3.0'
 
 gem 'd3-rails'
 gem 'lodash-rails'
