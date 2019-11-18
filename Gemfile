@@ -73,8 +73,7 @@ gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
 
 gem 'ffi', '~> 1.9.24'
 gem 'sprockets', '~> 3.7.2'
-gem 'loofah', '~> 2.2.3'
-gem 'nokogiri', '~> 1.10.5'
+gem 'loofah', '~> 2.3.1'
 gem 'rubyzip', '~> 1.3.0'
 
 gem 'd3-rails'
