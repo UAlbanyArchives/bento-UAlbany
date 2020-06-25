@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.4.1'
+ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.2.1'
+gem 'rails', '~> 5.2.4.3'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'sqlite3', '~> 1.3.6'
@@ -78,5 +78,7 @@ gem 'loofah', '~> 2.3.1'
 gem 'rubyzip', '~> 1.3.0'
 gem 'd3-rails'
 gem 'lodash-rails'
-gem "rack", ">= 2.0.8"
+gem "rack", ">= 2.2.3"
 gem "nokogiri", ">= 1.10.8"
+gem "websocket-extensions", ">= 0.1.5"
+gem "kaminari", ">= 1.2.1"
