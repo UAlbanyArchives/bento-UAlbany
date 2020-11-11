@@ -16,6 +16,7 @@
 
 quick_search-arclight_searcher/*
 quick_search-hyrax_searcher/*
+quick_search-history_searcher/*
 quick_search-grenander_theme/*
 
 config/initializers/secret_token.rb
