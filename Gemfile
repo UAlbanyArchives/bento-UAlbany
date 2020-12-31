@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4.3'
+gem 'rails', '~> 5.2.4.4'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'sqlite3', '~> 1.3.6'
@@ -63,13 +63,20 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #gem 'quick_search-core', '~> 0.2.0'
-gem 'quick_search-core', git: 'git://github.com/UAlbanyArchives/quick_search'
-#gem 'quick_search-arclight', git: 'git://github.com/UAlbanyArchives/quick_search-arclight_searcher'
-gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
-#gem 'quick_search-hyrax', git: 'git://github.com/UAlbanyArchives/quick_search-hyrax_searcher'
-gem 'quick_search-hyrax', path: 'quick_search-hyrax_searcher'
-#gem 'quick_search-grenander_theme', git: 'git://github.com/UAlbanyArchives/quick_search-grenander_theme'
-gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
+gem 'quick_search-core', git: 'https://github.com/UAlbanyArchives/quick_search'
+gem 'quick_search-arclight', git: 'https://github.com/UAlbanyArchives/quick_search-arclight_searcher'
+#gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
+gem 'quick_search-hyrax', git: 'https://github.com/UAlbanyArchives/quick_search-hyrax_searcher'
+#gem 'quick_search-hyrax', path: 'quick_search-hyrax_searcher'
+gem 'quick_search-history', git: 'https://github.com/UAlbanyArchives/quick_search-history_searcher', branch: 'main'
+#gem 'quick_search-history', path: 'quick_search-history_searcher'
+gem 'quick_search-mathes', git: 'https://github.com/UAlbanyArchives/quick_search-mathes_searcher', branch: 'main'
+#gem 'quick_search-mathes', path: 'quick_search-mathes_searcher'
+
+#gem 'quick_search-grenander_theme', git: 'https://github.com/UAlbanyArchives/quick_search-grenander_theme', branch: 'history'
+#gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
+gem 'grenander', git: 'https://github.com/UAlbanyArchives/grenander', branch: 'new_nav'
+#gem 'grenander', path: 'grenander'
 
 # manual updates for vunerabilities
 gem 'ffi', '~> 1.9.24'
