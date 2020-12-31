@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/UAlbanyArchives/grenander
-  revision: 060a8986e72d1cb9a26f9d9a4a4452059eb6b145
+  revision: 57b2e24b3aaf30efb7f00d832bbbeb86939dede5
   branch: new_nav
   specs:
     grenander (1.2.0)
