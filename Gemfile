@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4.4'
+gem 'rails', '~> 5.2.6'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'sqlite3', '~> 1.3.6'
@@ -69,7 +69,7 @@ gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
 #gem 'quick_search-hyrax', git: 'git://github.com/UAlbanyArchives/quick_search-hyrax_searcher'
 gem 'quick_search-hyrax', path: 'quick_search-hyrax_searcher'
 #gem 'quick_search-history_searcher', git: 'git://github.com/UAlbanyArchives/quick_search-history_searcher', branch: 'main'
-gem 'quick_search-history', path: 'quick_search-history_searcher'
+#gem 'quick_search-history', path: 'quick_search-history_searcher'
 
 #gem 'quick_search-grenander_theme', git: 'git://github.com/UAlbanyArchives/quick_search-grenander_theme'
 gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
