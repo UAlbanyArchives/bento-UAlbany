@@ -18,6 +18,8 @@ quick_search-arclight_searcher/*
 quick_search-hyrax_searcher/*
 quick_search-history_searcher/*
 quick_search-mathes_searcher/*
+quick_search-pamphlets_searcher/*
+quick_search-books/*
 quick_search-grenander_theme/*
 grenander/*
 

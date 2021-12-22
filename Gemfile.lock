@@ -1,19 +1,4 @@
 GIT
-  remote: https://github.com/UAlbanyArchives/grenander
-  revision: 57b2e24b3aaf30efb7f00d832bbbeb86939dede5
-  branch: new_nav
-  specs:
-    grenander (1.2.0)
-      bootstrap (>= 4.3.1)
-      d3-rails
-      font-awesome-rails
-      font-awesome-sass (~> 4.6.2)
-      jquery-rails
-      lodash-rails
-      quick_search-core (~> 0.1)
-      rails (~> 5.2.4, >= 5.2.4.3)
-
-GIT
   remote: https://github.com/UAlbanyArchives/quick_search
   revision: 6bd153dcb44588d5d16248a3278313714d0f0365
   specs:
@@ -28,10 +13,19 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-arclight_searcher
-  revision: e238c14927878d0b95617f05a7e677bc78b774b9
+  revision: b573bda8cc910ae0c90361d652f5a0477caa9603
+  branch: main
   specs:
     quick_search-arclight (0.1.0)
       rails (~> 5.2.1)
+
+GIT
+  remote: https://github.com/UAlbanyArchives/quick_search-books
+  revision: 93678ddfd8f88467481040450709bde1e5e237ed
+  branch: main
+  specs:
+    quick_search-books (0.1.0)
+      rails (~> 5.2.6)
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-history_searcher
@@ -43,59 +37,79 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-hyrax_searcher
-  revision: 0e43eb5d4fbd08ee5e0369e267a957f1f6f5e954
+  revision: dc1f68091ec8265453b7c3fc6c76e9c259d7a9b4
+  branch: main
   specs:
     quick_search-hyrax (0.1.0)
       rails (~> 5.2.1)
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-mathes_searcher
-  revision: cd6909acbb2503c5623dccf5085ec14a6d297898
+  revision: 0ab59785fec167d1b9f04c5bfb0f2d916eceadd8
   branch: main
   specs:
     quick_search-mathes (0.1.1)
       rails (~> 5.2.4, >= 5.2.4.4)
 
+PATH
+  remote: grenander
+  specs:
+    grenander (1.3.1)
+      bootstrap (>= 4.3.1)
+      d3-rails
+      font-awesome-rails
+      font-awesome-sass (~> 4.6.2)
+      jquery-rails
+      lodash-rails
+      quick_search-core (~> 0.1)
+      rails (~> 5.2.4, >= 5.2.4.3)
+
+PATH
+  remote: quick_search-pamphlets
+  specs:
+    quick_search-pamphlets (0.1.0)
+      rails (~> 5.2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    actioncable (5.2.4.4)
-      actionpack (= 5.2.4.4)
+    actioncable (5.2.6)
+      actionpack (= 5.2.6)
       nio4r (~> 2.0)
       websocket-driver (>= 0.6.1)
-    actionmailer (5.2.4.4)
-      actionpack (= 5.2.4.4)
-      actionview (= 5.2.4.4)
-      activejob (= 5.2.4.4)
+    actionmailer (5.2.6)
+      actionpack (= 5.2.6)
+      actionview (= 5.2.6)
+      activejob (= 5.2.6)
       mail (~> 2.5, >= 2.5.4)
       rails-dom-testing (~> 2.0)
-    actionpack (5.2.4.4)
-      actionview (= 5.2.4.4)
-      activesupport (= 5.2.4.4)
+    actionpack (5.2.6)
+      actionview (= 5.2.6)
+      activesupport (= 5.2.6)
       rack (~> 2.0, >= 2.0.8)
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (5.2.4.4)
-      activesupport (= 5.2.4.4)
+    actionview (5.2.6)
+      activesupport (= 5.2.6)
       builder (~> 3.1)
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    activejob (5.2.4.4)
-      activesupport (= 5.2.4.4)
+    activejob (5.2.6)
+      activesupport (= 5.2.6)
       globalid (>= 0.3.6)
-    activemodel (5.2.4.4)
-      activesupport (= 5.2.4.4)
-    activerecord (5.2.4.4)
-      activemodel (= 5.2.4.4)
-      activesupport (= 5.2.4.4)
+    activemodel (5.2.6)
+      activesupport (= 5.2.6)
+    activerecord (5.2.6)
+      activemodel (= 5.2.6)
+      activesupport (= 5.2.6)
       arel (>= 9.0)
-    activestorage (5.2.4.4)
-      actionpack (= 5.2.4.4)
-      activerecord (= 5.2.4.4)
-      marcel (~> 0.3.1)
-    activesupport (5.2.4.4)
+    activestorage (5.2.6)
+      actionpack (= 5.2.6)
+      activerecord (= 5.2.6)
+      marcel (~> 1.0.0)
+    activesupport (5.2.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -105,14 +119,14 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
-    autoprefixer-rails (10.1.0.0)
-      execjs
+    autoprefixer-rails (10.3.3.0)
+      execjs (~> 2)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
-    bootstrap (4.5.3)
+    bootstrap (5.1.3)
       autoprefixer-rails (>= 9.1.0)
-      popper_js (>= 1.14.3, < 2)
+      popper_js (>= 2.9.3, < 3)
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.3)
@@ -135,22 +149,22 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.9)
     crass (1.0.6)
-    d3-rails (5.9.2)
+    d3-rails (7.0.0)
       railties (>= 3.1)
     erubi (1.10.0)
-    execjs (2.7.0)
-    fastimage (2.2.1)
+    execjs (2.8.1)
+    fastimage (2.2.6)
     ffi (1.9.25)
-    font-awesome-rails (4.7.0.6)
-      railties (>= 3.2, < 6.2)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     font-awesome-sass (4.6.2)
       sass (>= 3.2)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (1.0.0)
+      activesupport (>= 5.0)
     httpclient (2.8.3)
-    i18n (1.8.5)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     io-like (0.3.1)
     jbuilder (2.10.1)
@@ -175,58 +189,58 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    lodash-rails (4.17.15)
+    lodash-rails (4.17.21)
       railties (>= 3.1)
     loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (0.3.3)
-      mimemagic (~> 0.3.2)
+    marcel (1.0.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
-    mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
-    minitest (5.14.2)
+    mini_mime (1.1.2)
+    mini_portile2 (2.6.1)
+    minitest (5.15.0)
     modernizr-rails (2.7.1)
     msgpack (1.3.3)
     mysql2 (0.5.3)
-    nio4r (2.5.4)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
-    popper_js (1.16.0)
+    nio4r (2.5.8)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    popper_js (2.9.3)
     public_suffix (4.0.6)
     puma (3.12.6)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rails (5.2.4.4)
-      actioncable (= 5.2.4.4)
-      actionmailer (= 5.2.4.4)
-      actionpack (= 5.2.4.4)
-      actionview (= 5.2.4.4)
-      activejob (= 5.2.4.4)
-      activemodel (= 5.2.4.4)
-      activerecord (= 5.2.4.4)
-      activestorage (= 5.2.4.4)
-      activesupport (= 5.2.4.4)
+    rails (5.2.6)
+      actioncable (= 5.2.6)
+      actionmailer (= 5.2.6)
+      actionpack (= 5.2.6)
+      actionview (= 5.2.6)
+      activejob (= 5.2.6)
+      activemodel (= 5.2.6)
+      activerecord (= 5.2.6)
+      activestorage (= 5.2.6)
+      activesupport (= 5.2.6)
       bundler (>= 1.3.0)
-      railties (= 5.2.4.4)
+      railties (= 5.2.6)
       sprockets-rails (>= 2.0.0)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.3.0)
+    rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
-    railties (5.2.4.4)
-      actionpack (= 5.2.4.4)
-      activesupport (= 5.2.4.4)
+    railties (5.2.6)
+      actionpack (= 5.2.6)
+      activesupport (= 5.2.6)
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
-    rake (13.0.3)
-    rb-fsevent (0.10.4)
+    rake (13.0.6)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.8.2)
@@ -261,12 +275,12 @@ GEM
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.2.2)
-      actionpack (>= 4.0)
-      activesupport (>= 4.0)
+    sprockets-rails (3.4.2)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.13)
-    thor (1.0.1)
+    thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
     tzinfo (1.2.9)
@@ -278,7 +292,7 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    websocket-driver (0.7.3)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)
@@ -304,12 +318,14 @@ DEPENDENCIES
   nokogiri (>= 1.10.8)
   puma (~> 3.12.4)
   quick_search-arclight!
+  quick_search-books!
   quick_search-core!
   quick_search-history!
   quick_search-hyrax!
   quick_search-mathes!
+  quick_search-pamphlets!
   rack (>= 2.2.3)
-  rails (~> 5.2.4.4)
+  rails (~> 5.2.6)
   rubyzip (~> 1.3.0)
   sass-rails (~> 5.0)
   selenium-webdriver

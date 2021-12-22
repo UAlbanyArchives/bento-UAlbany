@@ -1,3 +1,18 @@
-/*
- *= require  'quick_search'
-*/
+@import "quick_search";
+
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+.quicksearch-ga-click-tracking .card .card-header {
+	padding: 0.75rem 1.25rem;
+}
