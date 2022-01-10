@@ -36,8 +36,8 @@ en:
   opensearch_description: 'QuickSearch'
 
   defaults_search:
-    display_name: "All"
-    title_name: "Search All"
+    display_name: "Search"
+    title_name: "Search Everything"
     search_form_placeholder: "Search..."
     module_callout: "Search for anything!"
   footer:
