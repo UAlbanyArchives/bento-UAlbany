@@ -1,6 +1,6 @@
 module ApplicationHelper
 	def source_name
-      'Everything'
+      'Collections'
     end
     def container_classes
     	'container-fluid'
