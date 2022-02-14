@@ -30,16 +30,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  default_title: 'Search Everything | M.E. Grenander Department of Special Collections & Archives'
+  default_title: 'Search Collections | M.E. Grenander Department of Special Collections & Archives'
   contact_email: 'gwiedeman@albany.edu'
   organization_name: 'M.E. Grenander Department of Special Collections & Archives'
   opensearch_description: 'QuickSearch'
 
   defaults_search:
     display_name: "Search"
-    title_name: "Search Everything"
+    title_name: "Search Collections"
     search_form_placeholder: "Search..."
-    module_callout: "Search for anything!"
+    module_callout: "Search our collections"
   footer:
     section_1_text: "Contact us at quicksearch@university.edu"
     section_2_text: "Find information about modifying this theme, and anything else related to QuickSearch on GitHub"
