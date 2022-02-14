@@ -64,8 +64,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #gem 'quick_search-core', '~> 0.2.0'
 gem 'quick_search-core', git: 'https://github.com/UAlbanyArchives/quick_search'
-gem 'quick_search-arclight', git: 'https://github.com/UAlbanyArchives/quick_search-arclight_searcher', branch: 'main'
-#gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
+#gem 'quick_search-arclight', git: 'https://github.com/UAlbanyArchives/quick_search-arclight_searcher', branch: 'main'
+gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
 gem 'quick_search-hyrax', git: 'https://github.com/UAlbanyArchives/quick_search-hyrax_searcher', branch: 'main'
 #gem 'quick_search-hyrax', path: 'quick_search-hyrax_searcher'
 gem 'quick_search-history', git: 'https://github.com/UAlbanyArchives/quick_search-history_searcher', branch: 'main'
