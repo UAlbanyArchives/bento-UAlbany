@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-arclight_searcher
-  revision: fce2fa05cf33f2eeccfa704fc1f4d2be7a47b268
+  revision: 879b855373456c662f624b704151d274d97395e6
   branch: main
   specs:
     quick_search-arclight (0.1.0)
@@ -168,7 +168,7 @@ GEM
     globalid (1.0.0)
       activesupport (>= 5.0)
     httpclient (2.8.3)
-    i18n (1.9.1)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.1)
     jbuilder (2.10.1)
