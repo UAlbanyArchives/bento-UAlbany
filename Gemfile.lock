@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/UAlbanyArchives/grenander
-  revision: 217232a9fcab022e61e0d85e6121b44b88846184
-  branch: new_nav
+  revision: ac714370f1e9ca2044ae40a44e91b21c81eab37f
+  branch: main
   specs:
     grenander (1.3.1)
       bootstrap (>= 4.3.1)
@@ -36,7 +36,7 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-books
-  revision: 93678ddfd8f88467481040450709bde1e5e237ed
+  revision: c4752eed6172216b74d96fb4107bd6446d8a9858
   branch: main
   specs:
     quick_search-books (0.1.0)
@@ -52,7 +52,7 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-hyrax_searcher
-  revision: dc1f68091ec8265453b7c3fc6c76e9c259d7a9b4
+  revision: 601d1341d3125cbd12c9880199ffd66785da08fc
   branch: main
   specs:
     quick_search-hyrax (0.1.0)
@@ -60,7 +60,7 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-mathes_searcher
-  revision: 0ab59785fec167d1b9f04c5bfb0f2d916eceadd8
+  revision: bb6e9cce4c32eafcf64c173393803a122796aeca
   branch: main
   specs:
     quick_search-mathes (0.1.1)

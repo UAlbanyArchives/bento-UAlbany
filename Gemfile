@@ -79,7 +79,7 @@ gem 'quick_search-books', git: 'https://github.com/UAlbanyArchives/quick_search-
 
 #gem 'quick_search-grenander_theme', git: 'https://github.com/UAlbanyArchives/quick_search-grenander_theme', branch: 'history'
 #gem 'quick_search-grenander_theme', path: 'quick_search-grenander_theme'
-gem 'grenander', git: 'https://github.com/UAlbanyArchives/grenander', branch: 'new_nav'
+gem 'grenander', git: 'https://github.com/UAlbanyArchives/grenander', branch: 'main'
 #gem 'grenander', path: 'grenander'
 
 gem 'jquery-rails'
