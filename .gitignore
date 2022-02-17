@@ -12,7 +12,7 @@
 /db/*.sqlite3-journal
 
 /config/secrets.yml
-/config/quick_search_config.yml
+#/config/quick_search_config.yml
 
 quick_search-arclight_searcher/*
 quick_search-hyrax_searcher/*
