@@ -64,8 +64,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #gem 'quick_search-core', '~> 0.2.0'
 gem 'quick_search-core', git: 'https://github.com/UAlbanyArchives/quick_search'
-#gem 'quick_search-arclight', git: 'https://github.com/UAlbanyArchives/quick_search-arclight_searcher', branch: 'main'
-gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
+gem 'quick_search-arclight', git: 'https://github.com/UAlbanyArchives/quick_search-arclight_searcher', branch: 'main'
+#gem 'quick_search-arclight', path: 'quick_search-arclight_searcher'
 gem 'quick_search-hyrax', git: 'https://github.com/UAlbanyArchives/quick_search-hyrax_searcher', branch: 'main'
 #gem 'quick_search-hyrax', path: 'quick_search-hyrax_searcher'
 gem 'quick_search-history', git: 'https://github.com/UAlbanyArchives/quick_search-history_searcher', branch: 'main'
@@ -73,8 +73,8 @@ gem 'quick_search-history', git: 'https://github.com/UAlbanyArchives/quick_searc
 
 gem 'quick_search-mathes', git: 'https://github.com/UAlbanyArchives/quick_search-mathes_searcher', branch: 'main'
 #gem 'quick_search-mathes', path: 'quick_search-mathes_searcher'
-#gem 'quick_search-pamphlets', git: 'https://github.com/UAlbanyArchives/quick_search-pamphlets', branch: 'main'
-gem 'quick_search-pamphlets', path: 'quick_search-pamphlets'
+gem 'quick_search-pamphlets', git: 'https://github.com/UAlbanyArchives/quick_search-pamphlets', branch: 'main'
+#gem 'quick_search-pamphlets', path: 'quick_search-pamphlets'
 gem 'quick_search-books', git: 'https://github.com/UAlbanyArchives/quick_search-books', branch: 'main'
 
 #gem 'quick_search-grenander_theme', git: 'https://github.com/UAlbanyArchives/quick_search-grenander_theme', branch: 'history'

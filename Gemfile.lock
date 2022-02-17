@@ -27,6 +27,14 @@ GIT
       rails (~> 5.0)
 
 GIT
+  remote: https://github.com/UAlbanyArchives/quick_search-arclight_searcher
+  revision: fce2fa05cf33f2eeccfa704fc1f4d2be7a47b268
+  branch: main
+  specs:
+    quick_search-arclight (0.1.0)
+      rails (~> 5.2.1)
+
+GIT
   remote: https://github.com/UAlbanyArchives/quick_search-books
   revision: 93678ddfd8f88467481040450709bde1e5e237ed
   branch: main
@@ -58,14 +66,10 @@ GIT
     quick_search-mathes (0.1.1)
       rails (~> 5.2.4, >= 5.2.4.4)
 
-PATH
-  remote: quick_search-arclight_searcher
-  specs:
-    quick_search-arclight (0.1.0)
-      rails (~> 5.2.1)
-
-PATH
-  remote: quick_search-pamphlets
+GIT
+  remote: https://github.com/UAlbanyArchives/quick_search-pamphlets
+  revision: 867b526e3891b8f526fc5dc1641aa7ffa5b81f4a
+  branch: main
   specs:
     quick_search-pamphlets (0.1.0)
       rails (~> 5.2.6)
