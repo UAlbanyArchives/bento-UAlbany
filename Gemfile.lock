@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-arclight_searcher
-  revision: 879b855373456c662f624b704151d274d97395e6
+  revision: d79f06d061b0f3ebe327fa76f5700afd8b06e397
   branch: main
   specs:
     quick_search-arclight (0.1.0)
