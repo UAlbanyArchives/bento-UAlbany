@@ -23,6 +23,11 @@ quick_search-books/*
 quick_search-grenander_theme/*
 grenander/*
 
+public/index.html
+public/404.html
+public/422.html
+public/500.html
+
 config/initializers/secret_token.rb
 config/master.key
 .env
