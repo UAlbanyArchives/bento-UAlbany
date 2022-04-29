@@ -9,7 +9,7 @@ gem 'rails', '~> 5.2.6.3'
 #gem 'sqlite3'
 gem 'sqlite3', '~> 1.3.6'
 # Use Puma as the app server
-gem 'puma', '~> 5.6.2'
+gem 'puma', '~> 5.6.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -93,7 +93,7 @@ gem 'rubyzip', '~> 1.3.0'
 gem 'd3-rails'
 gem 'lodash-rails'
 gem "rack", ">= 2.2.3"
-gem "nokogiri", ">= 1.10.8"
+gem "nokogiri", ">= 1.13.4"
 gem "websocket-extensions", ">= 0.1.5"
 gem "kaminari", ">= 1.2.1"
 gem "addressable", ">= 2.8.0"
