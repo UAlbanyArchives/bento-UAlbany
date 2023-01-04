@@ -88,7 +88,7 @@ gem 'bootstrap', '~> 4.0'
 # manual updates for vunerabilities
 gem 'ffi', '~> 1.9.24'
 gem 'sprockets', '~> 3.7.2'
-gem 'loofah', '~> 2.3.1'
+gem 'loofah', '~> 2.19.1'
 gem 'rubyzip', '~> 1.3.0'
 gem 'd3-rails'
 gem 'lodash-rails'
