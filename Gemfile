@@ -90,3 +90,5 @@ gem 'bootstrap', '~> 4.0'
 #gem "kaminari", ">= 1.2.1"
 #gem "addressable", ">= 2.8.0"
 #gem "rails-html-sanitizer", "~> 1.4.4"
+
+gem "nokogiri", ">= 1.14.3"
