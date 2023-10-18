@@ -26,7 +26,7 @@ defaults: &defaults
 
   per_page: 5
   max_per_page: 50
-  http_timeout: 3.5
+  http_timeout: 5
   xhr_http_timeout: 15
 # google_analytics_tracking_id: ""
   user: "stats"
