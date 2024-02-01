@@ -51,10 +51,10 @@ GIT
 
 GIT
   remote: https://github.com/UAlbanyArchives/quick_search-hyrax_searcher
-  revision: f175eac32dd1f5ff6c08ad890d43cc7cd00fc9d0
+  revision: 78862b10bc19c466ca5f6ab6ca6de28777038466
   branch: main
   specs:
-    quick_search-hyrax (0.1.0)
+    quick_search-hyrax (0.2.0)
       rails (>= 5.2.1)
 
 GIT
