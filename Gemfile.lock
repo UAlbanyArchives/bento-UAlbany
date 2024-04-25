@@ -50,14 +50,6 @@ GIT
       rails (>= 5.2.4)
 
 GIT
-  remote: https://github.com/UAlbanyArchives/quick_search-hyrax_searcher
-  revision: 78862b10bc19c466ca5f6ab6ca6de28777038466
-  branch: main
-  specs:
-    quick_search-hyrax (0.2.0)
-      rails (>= 5.2.1)
-
-GIT
   remote: https://github.com/UAlbanyArchives/quick_search-mathes_searcher
   revision: da6631780ee9ea0e5389e446ccd41ca842aaafe9
   branch: main
@@ -72,6 +64,12 @@ GIT
   specs:
     quick_search-pamphlets (0.1.0)
       rails (>= 5.2.6)
+
+PATH
+  remote: quick_search-hyrax_searcher
+  specs:
+    quick_search-hyrax (0.1.0)
+      rails (>= 5.2.1)
 
 GEM
   remote: https://rubygems.org/
